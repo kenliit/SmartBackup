@@ -14,4 +14,8 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SmartBackup.Library\SmartBackup.Library.csproj" />
+  </ItemGroup>
+
 </Project>

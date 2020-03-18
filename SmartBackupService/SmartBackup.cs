@@ -33,5 +33,26 @@ namespace SmartBackupService
         {
             _timer.Stop();
         }
+
+        public void Pause()
+        {
+
+        }
+
+        public void Resume()
+        {
+
+        }
+
+        public void ExecuteCustomeCommand(int command)
+        {
+            switch (command)
+            {
+                case 1:
+
+                default:
+                    break;
+            }
+        }
     }
 }
